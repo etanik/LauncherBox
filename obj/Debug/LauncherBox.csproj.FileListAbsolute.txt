@@ -1,0 +1,10 @@
+C:\Users\etanik\Desktop\YET_Repositories\Launcher_Box\LauncherBox\bin\Debug\LauncherBox.exe.config
+C:\Users\etanik\Desktop\YET_Repositories\Launcher_Box\LauncherBox\bin\Debug\LauncherBox.exe
+C:\Users\etanik\Desktop\YET_Repositories\Launcher_Box\LauncherBox\bin\Debug\LauncherBox.pdb
+C:\Users\etanik\Desktop\YET_Repositories\Launcher_Box\LauncherBox\obj\Debug\LauncherBox.csprojAssemblyReference.cache
+C:\Users\etanik\Desktop\YET_Repositories\Launcher_Box\LauncherBox\obj\Debug\LauncherBox.Form1.resources
+C:\Users\etanik\Desktop\YET_Repositories\Launcher_Box\LauncherBox\obj\Debug\LauncherBox.Properties.Resources.resources
+C:\Users\etanik\Desktop\YET_Repositories\Launcher_Box\LauncherBox\obj\Debug\LauncherBox.csproj.GenerateResource.cache
+C:\Users\etanik\Desktop\YET_Repositories\Launcher_Box\LauncherBox\obj\Debug\LauncherBox.csproj.CoreCompileInputs.cache
+C:\Users\etanik\Desktop\YET_Repositories\Launcher_Box\LauncherBox\obj\Debug\LauncherBox.exe
+C:\Users\etanik\Desktop\YET_Repositories\Launcher_Box\LauncherBox\obj\Debug\LauncherBox.pdb

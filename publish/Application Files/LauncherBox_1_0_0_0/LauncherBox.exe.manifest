@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="LauncherBox.exe" version="1.0.0.0" publicKeyToken="9507d2d38c95956d" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LauncherBox" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="LauncherBox.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Bildirim Seçenekleri
+          Windows Kullanıcı Hesabı Denetim düzeyini değiştirmek istiyorsanız
+          requestedExecutionLevel düğümünü aşağıdakilerden biriyle değiştirin.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+
+         Geriye dönük uyumluluk için Dosya ve Kayıt Defteri Sanallaştırması’nı
+         kullanmak istiyorsanız requestedExecutionLevel düğümünü silin.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LauncherBox.exe" size="9128">
+      <assemblyIdentity name="LauncherBox" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9zAdiutq34cjYboU2orvpbS0HjnYSQDP5DbvbqAhdxM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="LauncherBox.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=TEKNO\etanik" issuerKeyHash="14fc0406ce6b7d32e4bbdb5d64dd8e3cfabb19b7" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>xnGgz9LsKUCeIqIq4QIs0WtdL0VFO0A1m/YCKyX30E8=</DigestValue></Reference></SignedInfo><SignatureValue>pWBOn1EgdMpWbiMNQx1qUzskBV7CaI/8D5Ad7xwSreCbY+Dk9JZwV9ctAYZzjj00uk+u0ll1ib9mgS0DQt0YYFc6iY67uKv14TrcU/z9k/6OSe6AQ6wMLycWshiGd2OVNYnBopyXp+a8JEzVB1NRfv0Aoo/goM+nyPbl4PA82DU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>6CTSJe+QwMb1Ek0hldj2WOMatbheNZl7TjB6Pxzi3jNPHXMB0ji40w53RB/TNbXC7TSA9waShcxjfYD+66c7nIAzxsZBx9q33p5utiuup2mE8HuVZmRA25tj8w/+uiG3y+ssue2JuCoXyXQ6fMhlrkcBim1NCkUYNrD14V8ZLJ0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4fd0f7252b02f69b35403b45452f5d6bd12c02e12aa2229e4029ecd2cfa071c6" Description="" Url=""><as:assemblyIdentity name="LauncherBox.exe" version="1.0.0.0" publicKeyToken="9507d2d38c95956d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=TEKNO\etanik</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>fvttyERsVgES2s47WhKoaDudckDxu2ZbfzjT1oQ335c=</DigestValue></Reference></SignedInfo><SignatureValue>d3zmZBo+bgDgYnEjJUfTbdZ736xabge4Cb1O0f+0rk0cu8Cwr/c8ED5r1FZRIS5B1A/fTfQofc+gUUSrPAjFLQ7CQx52UVX0L0/DbdT8cRKwoq4iRG76xKbDMWLokElRUa7ryvQZ5dYpJrvNhdjv2wl6O0lBlVfcguIJf5rTbJE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>6CTSJe+QwMb1Ek0hldj2WOMatbheNZl7TjB6Pxzi3jNPHXMB0ji40w53RB/TNbXC7TSA9waShcxjfYD+66c7nIAzxsZBx9q33p5utiuup2mE8HuVZmRA25tj8w/+uiG3y+ssue2JuCoXyXQ6fMhlrkcBim1NCkUYNrD14V8ZLJ0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQM7atEC/dyJpJjAYNETkbbzANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgAVABFAEsATgBPAFwAZQB0AGEAbgBpAGswHhcNMTkxMjAzMTMxMDA4WhcNMjAxMjAyMTkxMDA4WjAjMSEwHwYDVQQDHhgAVABFAEsATgBPAFwAZQB0AGEAbgBpAGswgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOgk0iXvkMDG9RJNIZXY9ljjGrW4XjWZe04wej8c4t4zTx1zAdI4uNMOd0Qf0zW1wu00gPcGkoXMY32A/uunO5yAM8bGQcfat96ebrYrrqdphPB7lWZkQNubY/MP/roht8vrLLntibgqF8l0OnzIZa5HAYptTQpFGDaw9eFfGSydAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAAm2/w0u92L8ZwTaKtYLbyAuz8Ef+0mrb8cHJhatmfkUVLUBP4SIawKqKAAL45jo5F1BIH4GG+tzwQ7MF5oeEadR9TsgQ75N7fo5oRtEe41s1OaBblgk9h0Qs1o4lU1p6CjZL3Io9Z8+MYLLyAdmJ8fFOQiQi74iBLr0cx6HnrqY=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,14 @@
+C:\Users\etanik\Desktop\YET_Repositories\Launcher_Box\LauncherBox\bin\Release\LauncherBox.exe.config
+C:\Users\etanik\Desktop\YET_Repositories\Launcher_Box\LauncherBox\bin\Release\LauncherBox.exe
+C:\Users\etanik\Desktop\YET_Repositories\Launcher_Box\LauncherBox\bin\Release\LauncherBox.pdb
+C:\Users\etanik\Desktop\YET_Repositories\Launcher_Box\LauncherBox\obj\Release\LauncherBox.Form1.resources
+C:\Users\etanik\Desktop\YET_Repositories\Launcher_Box\LauncherBox\obj\Release\LauncherBox.Properties.Resources.resources
+C:\Users\etanik\Desktop\YET_Repositories\Launcher_Box\LauncherBox\obj\Release\LauncherBox.csproj.GenerateResource.cache
+C:\Users\etanik\Desktop\YET_Repositories\Launcher_Box\LauncherBox\obj\Release\LauncherBox.csproj.CoreCompileInputs.cache
+C:\Users\etanik\Desktop\YET_Repositories\Launcher_Box\LauncherBox\obj\Release\LauncherBox.exe
+C:\Users\etanik\Desktop\YET_Repositories\Launcher_Box\LauncherBox\obj\Release\LauncherBox.pdb
+C:\Users\etanik\Desktop\YET_Repositories\Launcher_Box\LauncherBox\bin\Release\LauncherBox.exe.manifest
+C:\Users\etanik\Desktop\YET_Repositories\Launcher_Box\LauncherBox\bin\Release\LauncherBox.application
+C:\Users\etanik\Desktop\YET_Repositories\Launcher_Box\LauncherBox\obj\Release\LauncherBox.csprojAssemblyReference.cache
+C:\Users\etanik\Desktop\YET_Repositories\Launcher_Box\LauncherBox\obj\Release\LauncherBox.exe.manifest
+C:\Users\etanik\Desktop\YET_Repositories\Launcher_Box\LauncherBox\obj\Release\LauncherBox.application
